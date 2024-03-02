@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+	font-variant: small-caps;
+    background-color: #ffffff; 
+    color: black;
+}
+
+.container {
+	font-family: Roboto Thin;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('kosmos.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #cfb53b; 
+}
+
+.main-content {
+    padding: 20px;
+    font-family: "Arial", sans-serif; 
+    font-size: 16px; 
+    line-height: 2;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px; 
+    margin-left: 200px; 
+    margin-right: 200px; 
+	margin-bottom: 70px;
+}
+
+.text-block {
+    width: calc(20% - 32px); 
+    margin-right: 16px; 
+}
+
+.text-block p {
+    margin: 0; 
+}
+
+.divider {
+    width: 1px; 
+    background-color: navy;
+    margin-left: 16px; 
+    margin-right: 16px; 
+}
+.question {
+    color: navy;
+	font-size: 22px;
+}
+.dark-section {
+    background-color: #03142e; 
+    color: #ffffff; 
+	padding: 20px; 
+    height: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+}
+
+.dark-section a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
